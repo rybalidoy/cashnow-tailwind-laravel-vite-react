@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "module": "CommonJS",
-    "target": "ES6"
+    "target": "ES6",
+    "baseUrl": ".",
+    "paths": {
+      "@/lib/utils": ["resources/js/lib/utils"]
+    }
   },
   "exclude": ["node_modules"]
 }

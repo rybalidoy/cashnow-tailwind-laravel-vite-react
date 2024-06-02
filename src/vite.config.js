@@ -7,4 +7,9 @@ export default defineConfig({
         laravel(['resources/js/app.jsx']),
         react(),
     ],
+    resolve: {
+        alias: {
+          '@': resolve(__dirname, 'resources/js')
+        }
+    }
 });
