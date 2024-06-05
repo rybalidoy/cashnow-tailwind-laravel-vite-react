@@ -7,15 +7,6 @@ use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 
 class Kernel extends ConsoleKernel
 {
-    /**
-     * The Artisan commands provided by your application.
-     *
-     * @var array
-     */
-    protected $commands = [
-        // Register commands here
-				\App\Console\Commands\PopulateLoansMetaColumn::class,
-    ];
 
     /**
      * Define the application's command schedule.

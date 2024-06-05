@@ -9,12 +9,12 @@ const App = () => {
 	return(
 		<React.Fragment>
 			<div className="h-[100vh] bg-gray-200 grid grid-col-2 grid-flow-col">
-				<div className="bg-gray-400 col-span-1">
+				<div className="bg-gray-400 col-span-2">
 					<Container>
 						<Navbar />
 					</Container>
 				</div>
-				<div className="col-span-11">
+				<div className="col-span-10">
 					<Container>
 						<Button size={'sm'} variant="outline" onClick={() => {
 							toast("Event has been created", {
